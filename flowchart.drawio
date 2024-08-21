@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2024-08-21T04:40:32.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="y8PU0PdEKtdSy81hlcN1" version="24.6.4" type="device">
+  <diagram name="Page-1" id="lSx40J27jna2qMikCW2d">
+    <mxGraphModel dx="1393" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nSPN010KFDDQaechqrjG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSPN010KFDDQaechqrjG-3" target="nSPN010KFDDQaechqrjG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-3" value="HTTP REQUEST" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSPN010KFDDQaechqrjG-4" target="nSPN010KFDDQaechqrjG-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="245" />
+              <mxPoint x="550" y="500" />
+              <mxPoint x="400" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSPN010KFDDQaechqrjG-4" target="nSPN010KFDDQaechqrjG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-4" value="Http request url match with mockapi?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-6" value="FIN" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-8" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="218" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-9" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nSPN010KFDDQaechqrjG-10" target="nSPN010KFDDQaechqrjG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSPN010KFDDQaechqrjG-10" value="Intercept and call reply" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="360" width="130" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
