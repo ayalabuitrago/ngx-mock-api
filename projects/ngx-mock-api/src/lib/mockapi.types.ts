@@ -9,6 +9,7 @@ export type Method = 'get' | 'post' | 'put' | 'delete';
 
 // mock api handler
 export type Handler = {
+  url: string;
   method: Method;
   replyFn: ReplyFn;
   timeout?: number;

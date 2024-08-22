@@ -16,9 +16,17 @@ export class HandlerService {
       );
 
     this.handlers.push({
+      url: handler.url,
       method: handler.method,
       replyFn: handler.replyFn,
       timeout: this.defaultTime ?? handler.timeout
     });
+  }
+
+  matchQuery(url: string): Handler | null {
+
+
+
+    return null;
   }
 }

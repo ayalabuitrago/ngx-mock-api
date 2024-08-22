@@ -9,36 +9,40 @@ export class MockapiRegisterService {
   private _handlers: Handler[] = [];
   constructor(private _handlerService: HandlerService) {}
 
-  public onGet(onReply: ReplyFn, timeout?: number) {
+  public onGet(url: string, onReply: ReplyFn, timeout?: number) {
     // add handler
     this._handlerService.addHandler({
+      url,
       method: 'get',
       replyFn: onReply,
-      timeout: timeout,
+      timeout,
     });
   }
 
-  public onPost(onReply: ReplyFn, timeout?: number) {
+  public onPost(url: string, onReply: ReplyFn, timeout?: number) {
     // add handler
     this._handlerService.addHandler({
+      url,
       method: 'post',
       replyFn: onReply,
-      timeout: timeout,
+      timeout,
     });
   }
 
-  public onPut(onReply: ReplyFn, timeout?: number) {
+  public onPut(url: string, onReply: ReplyFn, timeout?: number) {
     // add handler
     this._handlerService.addHandler({
+      url,
       method: 'put',
       replyFn: onReply,
       timeout: timeout,
     });
   }
 
-  public onDelete(onReply: ReplyFn, timeout?: number) {
+  public onDelete(url: string, onReply: ReplyFn, timeout?: number) {
     // add handler
     this._handlerService.addHandler({
+      url,
       method: 'delete',
       replyFn: onReply,
       timeout: timeout,
