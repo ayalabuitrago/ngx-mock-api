@@ -15,6 +15,10 @@ export class HandlerService {
         'not default time provided, you can set on method or provider'
       );
 
-    this.handlers.push(handler);
+    this.handlers.push({
+      method: handler.method,
+      replyFn: handler.replyFn,
+      timeout: this.defaultTime ?? handler.timeout
+    });
   }
 }
