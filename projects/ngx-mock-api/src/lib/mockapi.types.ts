@@ -1,7 +1,7 @@
 import { HttpRequest } from "@angular/common/http";
 
 // Mock api reply fn for proccess
-export type ReplyFn = (request: HttpRequest<any>) => {}
+export type ReplyFn = (request: HttpRequest<unknown>) => {}
 
 
 // Mock api method allowed
